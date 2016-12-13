@@ -1,0 +1,3 @@
+[submodule "GraphicsTest/Graphics"]
+	path = GraphicsTest/Graphics
+	url = https://github.com/Neko81795/Graphics
