@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsTest", "GraphicsTest\GraphicsTest.vcxproj", "{934CA249-C777-419C-B4CC-B47F2CC3498B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7CEA306-41E6-4207-AAA1-FC5C7464212A} = {C7CEA306-41E6-4207-AAA1-FC5C7464212A}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Graphics\Graphics\Graphics\Graphics.vcxproj", "{C7CEA306-41E6-4207-AAA1-FC5C7464212A}"
 EndProject
