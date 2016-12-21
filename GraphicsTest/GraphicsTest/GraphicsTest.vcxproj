@@ -84,6 +84,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)Graphics\Graphics;$(ProjectDir)</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>4710;4820;4514</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(SolutionDir)$(Platform)\$(Configuration)\graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -97,6 +98,7 @@
       <AdditionalIncludeDirectories>$(SolutionDir)Graphics\Graphics;$(ProjectDir)</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>4710;4820;4514</DisableSpecificWarnings>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(SolutionDir)$(Platform)\$(Configuration)\graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
